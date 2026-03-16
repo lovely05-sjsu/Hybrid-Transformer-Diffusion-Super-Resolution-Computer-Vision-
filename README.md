@@ -46,21 +46,6 @@ A SwinIR transformer network generates an initial high-resolution reconstruction
 ### Stage 2 — Diffusion-Based Refinement
 A modified SR3 diffusion network performs lightweight deterministic refinement to enhance textures.
 
-## Pipeline:
-Low Resolution Image
-     │
-     ▼
-SwinIR (Transformer SR)
-     │
-     ▼
-Initial High-Resolution Image
-     │
-     ▼
-SR3 Diffusion Refiner
-     │
-     ▼
-Final Super-Resolved Image
-
 ---
 
 ## Dataset
